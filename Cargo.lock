@@ -1751,6 +1751,8 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 [[package]]
 name = "rmk"
 version = "0.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6cf821a176544c8417647767ce7d4992a461329679297ef9b641e5c30d07e282"
 dependencies = [
  "bitfield-struct",
  "bt-hci",
@@ -1794,6 +1796,8 @@ dependencies = [
 [[package]]
 name = "rmk-config"
 version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1894d97740c0f9a9c27a96e6d1054027d43c0d37f3559655aa2f21407e324d2c"
 dependencies = [
  "cargo_toml",
  "config",
@@ -1835,6 +1839,8 @@ dependencies = [
 [[package]]
 name = "rmk-macro"
 version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "06293087e9e0d154d5e138c6ad31b2d66263f6107ebb1d4d206b1b292c197d95"
 dependencies = [
  "cargo_toml",
  "darling",
@@ -2182,7 +2188,7 @@ checksum = "343e926fc669bc8cde4fa3129ab681c63671bae288b1f1081ceee6d9d37904fc"
 [[package]]
 name = "trouble-host"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/trouble?rev=cb4b2cd#cb4b2cd424cdb2af54bad52922798a58d8786d7f"
+source = "git+https://github.com/embassy-rs/trouble.git?rev=cb4b2cd424cdb2af54bad52922798a58d8786d7f#cb4b2cd424cdb2af54bad52922798a58d8786d7f"
 dependencies = [
  "aes",
  "bt-hci",
@@ -2205,7 +2211,7 @@ dependencies = [
 [[package]]
 name = "trouble-host-macros"
 version = "0.1.0"
-source = "git+https://github.com/embassy-rs/trouble?rev=cb4b2cd#cb4b2cd424cdb2af54bad52922798a58d8786d7f"
+source = "git+https://github.com/embassy-rs/trouble.git?rev=cb4b2cd424cdb2af54bad52922798a58d8786d7f#cb4b2cd424cdb2af54bad52922798a58d8786d7f"
 dependencies = [
  "convert_case 0.8.0",
  "darling",
@@ -2575,8 +2581,3 @@ name = "zeroize"
 version = "1.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ced3678a2879b30306d323f4542626697a464a97c0a07c9aebf7ebca65cd4dde"
-
-[[patch.unused]]
-name = "trouble-host"
-version = "0.1.0"
-source = "git+https://github.com/embassy-rs/trouble.git?rev=cb4b2cd424cdb2af54bad52922798a58d8786d7f#cb4b2cd424cdb2af54bad52922798a58d8786d7f"

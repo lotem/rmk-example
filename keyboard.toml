@@ -41,7 +41,7 @@ Kp1     Kp2     Kp3        Enter
 [[layer]]
 name = "mouse_navigation" #optional name for the layer
 keys = """
-TO(base_layer)   @my_cut    @my_copy         @my_paste
+TO(base_layer)   NonusHash  @my_copy         @my_paste
 MouseBtn1        MouseUp    MouseBtn2        MouseWheelUp
 MouseLeft        MouseBtn4  MouseRight
 MouseWheelLeft   MouseDown  MouseWheelRight  MouseWheelDown
